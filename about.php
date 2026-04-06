@@ -9,6 +9,8 @@
 
     <header>
         <nav>
+            <img src = "resources/image.png">
+            <p> Professional Color Coordination Tools </p>
             <a href="index.php">Home</a>
             <a href="about.php">About Us</a>
             <a href="color.php">Color Coordinate</a>
@@ -20,7 +22,7 @@
 
         <section class="team-member">
             <h2>Eli Schneckloth</h2>
-            <img src="./resources/Eli.jpeg" alt="Your Avatar">
+            <!-- <img src="./resources/Eli.jpeg" alt="Your Avatar"> -->
             <p>
                 Hello, my name is Eli Schneckloth a 3rd year student at CSU studying computer science with a focus in cyber security.
             </p>
