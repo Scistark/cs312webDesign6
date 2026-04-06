@@ -89,7 +89,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "</table>";
 }
 ?>
-    <h2>Coordinate Grid</h2>
 
     <button> View Printable Version </button>
 
