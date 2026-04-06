@@ -44,5 +44,7 @@
 
     <h2>Coordinate Grid</h2>
 
+    <button> View Printable Version </button>
+
 </body>
 </html>
