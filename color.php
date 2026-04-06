@@ -21,7 +21,7 @@
         </nav>
     </header>
 
-    <h1>Color Coordinator</h1>
+    <h2>Color Coordinator</h2>
 
     <p>Enter the grid size and number of colors below to generate your coordinate sheet.</p>
     <p> Rows & Columns (1-26):</p>
@@ -41,6 +41,8 @@
         <option value="Black"> Black </option>
         <option value="Teal"> Teal </option>
     </select>
+
+    <h2>
 
 </body>
 </html>
