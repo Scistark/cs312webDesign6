@@ -53,11 +53,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     include 'fragments/colorSelection.php';
 
     include 'fragments/coordinateGrid.php';
+
+    echo "<br><a href='print.php?rows=$rows&colors=$num_colors'><button type='button'>View Printable Version</button></a>";
+
 }
 }
 ?>
     <br>
-    <button> View Printable Version </button>
         </div>
 
 </body>
