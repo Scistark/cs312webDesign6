@@ -23,7 +23,7 @@
     </header>
     <main>
         <div class="welcome">
-        <h1 > Planning color scheme with ultimate precision </h1>
+        <h1 > Planning color schemes <br>with ultimate precision </h1>
         </div>
         <div class="triangle"></div>
         <div class="triangle-grey"></div>
