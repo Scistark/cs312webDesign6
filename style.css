@@ -227,3 +227,29 @@ body {
     background-color: #3A506B;
     border-radius:200px;
 }
+
+.rectangle-right{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -215px;
+    bottom: -10px;
+
+
+    width: 55rem;
+    height: .5rem;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.rectangle-left{
+    position: absolute;
+    transform: rotate(185deg);
+   right: -300px;
+   bottom: 110px;
+
+
+    width: 55rem;
+    height: .5rem;
+    box-sizing: border-box;
+    background-color: white;
+}
