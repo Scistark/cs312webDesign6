@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #2C2C2C;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .nav-wrapper {
@@ -233,7 +236,7 @@ body {
     transform: rotate(90deg);
     right: -215px;
     bottom: -10px;
-
+    z-index:-1;
 
     width: 55rem;
     height: .5rem;
@@ -244,9 +247,9 @@ body {
 .rectangle-left{
     position: absolute;
     transform: rotate(185deg);
-   right: -300px;
-   bottom: 110px;
-
+    right: -300px;
+    bottom: 110px;
+    z-index:-1;
 
     width: 55rem;
     height: .5rem;
