@@ -26,6 +26,7 @@
         <h1 > Planning color scheme with ultimate precision </h1>
         </div>
         <div class="triangle"></div>
+        <div class="triangle-grey"></div>
     </main>
     <nav class="navbar2">
      <div class="nav-link">   
