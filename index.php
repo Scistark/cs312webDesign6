@@ -27,6 +27,8 @@
         </div>
         <div class="triangle"></div>
         <div class="triangle-grey"></div>
+        <div class="rectangle-nav"></div>
+        <div class="rectangle-side"></div>
     </main>
     <nav class="navbar2">
      <div class="nav-link">   
