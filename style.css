@@ -105,6 +105,35 @@ body {
     background-color: #bfbfbf;
 }
 
-.triangle{
-    
+.triangle {
+	position: absolute;
+	background-color: #23708A;
+	text-align: left;
+
+    z-index: -1;
+    top: 50px;
+    left: 100px;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+	width:  25em;
+	height: 25em;
+	border-top-right-radius: 30%;
+}
+
+.triangle {
+	transform: rotate(-40deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
 }
